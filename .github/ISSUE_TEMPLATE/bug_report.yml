@@ -1,0 +1,71 @@
+name: 汉化失效 / Bug
+description: 装了但界面还是英文，或某处没翻译
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        贴诊断信息前请先**隐藏个人信息**（用户名、路径里的真实姓名）。
+
+  - type: dropdown
+    id: install-kind
+    attributes:
+      label: Codex 安装方式
+      options:
+        - Microsoft Store
+        - 便携版 / 解压版
+        - 不确定
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      placeholder: 例如 Windows 11 23H2
+    validations:
+      required: true
+
+  - type: input
+    id: codex-version
+    attributes:
+      label: Codex 版本
+      description: 帮助 → 关于
+    validations:
+      required: true
+
+  - type: input
+    id: tool-version
+    attributes:
+      label: 本工具版本
+      placeholder: 例如 1.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: symptom
+    attributes:
+      label: 现象
+      description: 描述看到什么，最好配截图
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 诊断输出
+      description: 在解压出来的工具目录下运行下方命令，把输出贴进来
+      value: |
+        ```powershell
+        .\runtime\node.exe .\scripts\patch-codex-zh-cn.mjs status
+        ```
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: 你试过什么
+      placeholder: 例如：重装、选 [3] 验证、重启 Codex
