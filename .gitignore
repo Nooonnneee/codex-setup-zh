@@ -1,0 +1,16 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# 发布打包产物
+dist/
+*.zip
+# package-release.ps1 在仓库根目录留下的 staging 目录
+/codex-zh-CN-v*/
+
+# 便携版 Node 运行时：走 Release 附件，不进 Git 历史
+runtime/node.exe
+
+# 本地生成
+.tmp/
