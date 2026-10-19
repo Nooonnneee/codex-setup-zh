@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "note": "Codex 桌面端内建更新器弹的「去商店更新」提示 —— 汉化副本是松散注册的（SignatureKind=None），Store 不认它，这条提示点了只会装回官方英文版。这里把文案改成引导用户回客户端点「一键汉化」重新生成中文版。",
+  "replacements": [
+    [
+      "`Open Microsoft Store to install the update.`",
+      "`请在「繁梦Ai-Copilot」客户端里点「一键汉化」重新生成中文版；直接去 Microsoft Store 更新只会得到英文版。`"
+    ],
+    [
+      " update is available.",
+      " 有新版本可用（新版只有英文界面）。"
+    ]
+  ]
+}
