@@ -1,0 +1,13 @@
+﻿{
+  "name": "codex-zh-cn",
+  "version": "0.1.11",
+  "private": true,
+  "type": "module",
+  "description": "Codex Desktop 简体中文汉化工具（独立版）",
+  "scripts": {
+    "test": "node --test \"tests/*.test.mjs\""
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.1"
+  }
+}
