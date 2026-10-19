@@ -4,25 +4,13 @@
 > 下载 → 解压 → 双击 → 完成。装错了能一键恢复英文。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078d4.svg)](#windows-汉化)
-[![macOS](https://img.shields.io/badge/macOS-%E4%BB%85%E5%AE%89%E8%A3%85-000000.svg?logo=apple)](#macos-仅安装)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078d4.svg)](#系统要求)
 
 **Gitee**：https://gitee.com/Flower_ly/codex-zh-cn　·　**GitHub**：https://github.com/Nooonnneee/codex-zh-cn
 
 ---
 
 ## 这个工具能干什么
-
-| | Windows | macOS |
-| --- | --- | --- |
-| 把界面变成中文 | ✅ | ❌ 不支持 |
-| 帮你装 Codex | ✅ | ✅ |
-| 随时恢复原样 | ✅ | — |
-
-**macOS 版做不了汉化**：Windows 版是 Electron，改内部资源文件即可；macOS 版是原生应用，
-没有对应的资源可改。所以 mac 上这个工具**只负责装 Codex**。
-
-## Windows 汉化
 
 - ✅ 把 Codex 的**菜单、按钮、提示**都变成中文
 - ✅ **没装 Codex 也能用**：它能帮你把 Codex 一起装上（国内应用商店经常下不动）
@@ -85,29 +73,10 @@
 **Windows 11 / 10 都能用吗？**
 能。X64 和 ARM64 的电脑都支持。
 
-## macOS 仅安装
-
-Mac 上这个工具只做一件事：**帮你把官方 Codex 装上**。界面仍是英文。
-
-1. 同样从 **Releases** 页下载并**完整解压**
-2. 双击文件夹里的 **`install-macos.command`**
-3. 会自动识别你的芯片（Apple Silicon / Intel），下载约 750 MB 安装包
-4. 装完在「启动台」或「应用程序」里打开 ChatGPT
-
-> **如果双击提示「无法打开，因为来自身份不明的开发者」**：
-> 右键点 `install-macos.command` → 选「打开」→ 再点「打开」。
->
-> 或在「终端」里执行一次：`chmod +x install-macos.command`
-
-**为什么 mac 没有中文？** Windows 版是 Electron 应用，可以替换内部资源文件；
-macOS 版是原生应用，没有对应的资源可替换。要中文界面只能用 Windows 版。
-
-**需要 macOS 13.0 或更高版本。**
-
 ## 系统要求
 
-- **Windows**：Windows 10 / 11，x64 或 ARM64，不需要预装任何东西
-- **macOS**：13.0 或更高，Apple Silicon 或 Intel
+- Windows 10 或 Windows 11
+- 不需要预先安装任何东西（压缩包自带运行环境）
 
 ---
 
@@ -123,13 +92,6 @@ macOS 版是原生应用，没有对应的资源可替换。要中文界面只�
 powershell -File scripts\install_windows.ps1 -Action status
 powershell -File scripts\install_windows.ps1 -Action install -CodexPath "D:\path\to\Codex"
 powershell -File scripts\install_windows.ps1 -Action uninstall -CodexPath "D:\path\to\Codex"
-```
-
-```bash
-# macOS（只装 Codex，不汉化）
-node scripts/install-codex-mac.mjs --check
-node scripts/install-codex-mac.mjs
-node scripts/install-codex-mac.mjs --dmg ~/Downloads/Codex-mac-arm64.dmg
 ```
 
 ```bash
