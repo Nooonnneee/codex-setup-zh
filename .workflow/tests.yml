@@ -1,0 +1,35 @@
+# Gitee 的 CI 配置（Gitee Go / Gitee DevOps）
+#
+# 注意：Gitee 不执行 .github/workflows/ 下的 GitHub Actions 配置。
+# 这个文件是给 Gitee 用的等价检查。如果你的仓库没有开通 Gitee Go，
+# 忽略本文件即可 —— 它不会影响任何功能，只是少一道自动检查。
+#
+# 开通方式：仓库页 → 服务 → Gitee Go → 新建流水线，选择本文件。
+version: "1.0"
+name: tests
+
+displayName: 单元测试
+
+triggers:
+  push:
+    branches:
+      include:
+        - main
+  pr:
+    branches:
+      include:
+        - main
+
+stages:
+  - stage:
+      name: test
+      displayName: 单元测试
+      steps:
+        - step: npmbuild@1
+          name: npm_test
+          displayName: 安装依赖并运行测试
+          inputs:
+            nodeVersion: "22"
+            goals: |
+              npm ci
+              npm test
