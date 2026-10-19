@@ -1,0 +1,210 @@
+[
+  [
+    "File",
+    "文件"
+  ],
+  [
+    "Edit",
+    "编辑"
+  ],
+  [
+    "View",
+    "视图"
+  ],
+  [
+    "Help",
+    "帮助"
+  ],
+  [
+    "Window",
+    "窗口"
+  ],
+  [
+    "Zoom In",
+    "放大"
+  ],
+  [
+    "Zoom Out",
+    "缩小"
+  ],
+  [
+    "Actual Size",
+    "实际大小"
+  ],
+  [
+    "Toggle Full Screen",
+    "切换全屏"
+  ],
+  [
+    "Codex Documentation",
+    "Codex 文档"
+  ],
+  [
+    "Documentation",
+    "文档"
+  ],
+  [
+    "What's New",
+    "更新日志"
+  ],
+  [
+    "What's new",
+    "更新日志"
+  ],
+  [
+    "Automations",
+    "自动化"
+  ],
+  [
+    "Local Environments",
+    "本地环境"
+  ],
+  [
+    "Worktrees",
+    "工作树"
+  ],
+  [
+    "Skills",
+    "技能"
+  ],
+  [
+    "Model Context Protocol",
+    "模型上下文协议"
+  ],
+  [
+    "Troubleshooting",
+    "故障排除"
+  ],
+  [
+    "Send Feedback",
+    "发送反馈"
+  ],
+  [
+    "Start Performance Trace",
+    "开始性能跟踪"
+  ],
+  [
+    "Stop Performance Trace",
+    "停止性能跟踪"
+  ],
+  [
+    "Waiting to Start Trace…",
+    "等待开始跟踪…"
+  ],
+  [
+    "Saving Trace…",
+    "正在保存跟踪…"
+  ],
+  [
+    "Waiting for Trace Details…",
+    "等待跟踪详情…"
+  ],
+  [
+    "Uploading Trace…",
+    "正在上传跟踪…"
+  ],
+  [
+    "Check for Updates…",
+    "检查更新…"
+  ],
+  [
+    "Log Out",
+    "退出登录"
+  ],
+  [
+    "Reload Window",
+    "重新加载窗口"
+  ],
+  [
+    "Toggle Debug Menu",
+    "切换调试菜单"
+  ],
+  [
+    "Browser Back",
+    "浏览器后退"
+  ],
+  [
+    "Browser Forward",
+    "浏览器前进"
+  ],
+  [
+    "Find Next",
+    "查找下一个"
+  ],
+  [
+    "Find Previous",
+    "查找上一个"
+  ],
+  [
+    "Open Deeplink from Clipboard",
+    "从剪贴板打开深层链接"
+  ],
+  [
+    "Toggle Query Devtools",
+    "切换查询开发者工具"
+  ],
+  [
+    "Toggle React Scan",
+    "切换 React 扫描"
+  ],
+  [
+    "Copy Lin&k",
+    "复制链接"
+  ],
+  [
+    "Cu&t",
+    "剪切"
+  ],
+  [
+    "&Copy",
+    "复制"
+  ],
+  [
+    "&Paste",
+    "粘贴"
+  ],
+  [
+    "Select &All",
+    "全选"
+  ],
+  [
+    "Look Up “{selection}”",
+    "查询“{selection}”"
+  ],
+  [
+    "Save Link As…",
+    "链接另存为…"
+  ],
+  [
+    "Copy Video Ad&dress",
+    "复制视频地址"
+  ],
+  [
+    "Save Vide&o",
+    "保存视频"
+  ],
+  [
+    "Save Video& As…",
+    "视频另存为…"
+  ],
+  [
+    "C&opy Image Address",
+    "复制图片地址"
+  ],
+  [
+    "Cop&y Image",
+    "复制图片"
+  ],
+  [
+    "Sa&ve Image As…",
+    "图片另存为…"
+  ],
+  [
+    "Save I&mage",
+    "保存图片"
+  ],
+  [
+    "I&nspect Element",
+    "检查元素"
+  ]
+]
