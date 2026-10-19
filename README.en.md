@@ -4,26 +4,13 @@
 > Download → extract → double-click → done. Fully reversible.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078d4.svg)](#windows-localization)
-[![macOS](https://img.shields.io/badge/macOS-install%20only-000000.svg?logo=apple)](#macos-install-only)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078d4.svg)](#requirements)
 
 **GitHub**：https://github.com/Nooonnneee/codex-zh-cn　·　**Gitee**：https://gitee.com/Flower_ly/codex-zh-cn
 
 ---
 
 ## What it does
-
-| | Windows | macOS |
-| --- | --- | --- |
-| Chinese UI | ✅ | ❌ not supported |
-| Installs Codex for you | ✅ | ✅ |
-| Fully reversible | ✅ | — |
-
-**macOS cannot be localized here.** The Windows build is Electron, so swapping internal
-resource files works; the macOS build is a native app with no equivalent to patch. On macOS this
-tool **only installs Codex**.
-
-## Windows localization
 
 - ✅ Turns Codex's **menus, buttons and messages** into Simplified Chinese
 - ✅ **Works even if Codex isn't installed** — it can install Codex for you
@@ -87,28 +74,10 @@ Pick `2` to restore English, then delete the extracted folder.
 **Windows 10 / 11?**
 Both. x64 and ARM64 are supported.
 
-## macOS (install only)
-
-On macOS this tool does one thing: **installs the official Codex**. The UI stays English.
-
-1. Download and **fully extract** the release archive
-2. Double-click **`install-macos.command`**
-3. It detects your chip (Apple Silicon / Intel) and downloads ~750 MB
-4. Open ChatGPT from Launchpad or Applications when it finishes
-
-> **"Cannot be opened because the developer cannot be verified"?**
-> Right-click `install-macos.command` → Open → Open again.
-> Or run once in Terminal: `chmod +x install-macos.command`
-
-**Why no Chinese on macOS?** The Windows build is Electron and its internal resources can be
-swapped; the macOS build is native with no equivalent to patch.
-
-**Requires macOS 13.0 or later.**
-
 ## Requirements
 
-- **Windows**: 10 or 11, x64 or ARM64, nothing to pre-install
-- **macOS**: 13.0 or later, Apple Silicon or Intel
+- Windows 10 or Windows 11
+- Nothing to pre-install — the archive bundles its own runtime
 
 ---
 
@@ -129,13 +98,6 @@ swapped; the macOS build is native with no equivalent to patch.
 powershell -File scripts\install_windows.ps1 -Action status
 powershell -File scripts\install_windows.ps1 -Action install -CodexPath "D:\path\to\Codex"
 powershell -File scripts\install_windows.ps1 -Action uninstall -CodexPath "D:\path\to\Codex"
-```
-
-```bash
-# macOS (install only, no localization)
-node scripts/install-codex-mac.mjs --check
-node scripts/install-codex-mac.mjs
-node scripts/install-codex-mac.mjs --dmg ~/Downloads/Codex-mac-arm64.dmg
 ```
 
 ```bash
