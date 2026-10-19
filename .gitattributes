@@ -3,10 +3,6 @@
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
 
-# macOS：.command 双击运行，CRLF 会让 shebang 失效并报 bad interpreter
-*.command text eol=lf
-*.sh text eol=lf
-
 # 其余文本统一 LF
 *.mjs text eol=lf
 *.cjs text eol=lf
@@ -17,4 +13,3 @@
 # 二进制
 *.zip binary
 *.exe binary
-*.dmg binary
