@@ -11,6 +11,24 @@ const patcher = fs.readFileSync(
   "utf8",
 );
 
+test("内部文档只在 docs/ 下，不占根目录", () => {
+  // 这三个是写给维护者的：发布清单、宣传文案、运行时设计。
+  // 放在根目录会让访客第一眼看到一堆跟自己无关的文件。
+  // 曾经因为 `git rm --cached` 之后紧接 `git add -A`，文件又被加了回来，
+  // 结果根目录和 docs/ 各存一份 —— 这条测试就是防止再犯。
+  const internal = ["PROMOTION.md", "PUBLISHING.md", "RUNTIME.md"];
+  for (const name of internal) {
+    assert.ok(
+      !fs.existsSync(path.join(root, name)),
+      `${name} 不应出现在仓库根目录，应放在 docs/ 下`,
+    );
+    assert.ok(
+      fs.existsSync(path.join(root, "docs", name)),
+      `docs/${name} 缺失`,
+    );
+  }
+});
+
 /** 面向用户 / 发布者的文档：这些文件里都不允许出现死链。 */
 const DOC_FILES = [
   "README.md",
