@@ -58,14 +58,14 @@ Add-Content .gitignore "`nruntime/node.exe"
 
 ```powershell
 cd $dst
-gh repo create <你的账号>/codex-zh-cn --public --source . --push `
+gh repo create <你的账号>/codex-setup-zh --public --source . --push `
   --description "Windows 版 Codex Desktop 简体中文一键汉化｜独立版，不依赖第三方客户端"
 ```
 
 没有 `gh` 就在网页上新建空仓库，然后：
 
 ```powershell
-git remote add origin https://github.com/<你的账号>/codex-zh-cn.git
+git remote add origin https://github.com/<你的账号>/codex-setup-zh.git
 git push -u origin main
 ```
 
@@ -83,7 +83,7 @@ git push -u origin main
 Gitee 这边中文标签和信息更重要：
 
 ```powershell
-git remote add gitee https://gitee.com/<你的账号>/codex-zh-cn.git
+git remote add gitee https://gitee.com/<你的账号>/codex-setup-zh.git
 git push gitee main --tags
 ```
 
