@@ -45,5 +45,5 @@
 
 ---
 
-**文件**：`codex-zh-CN-v1.0.0.zip`（约 33 MB，内含固定版本 Node 运行时）
+**文件**：`codex-setup-zh-v1.0.0.zip`（约 33 MB，内含固定版本 Node 运行时）
 **系统要求**：Windows 10 / 11（x64 或 arm64），无需预装 Node.js
