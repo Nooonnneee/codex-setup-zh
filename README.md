@@ -21,7 +21,7 @@
 
 ### 第 1 步：下载
 
-打开 **Releases** 页，下载 `codex-zh-CN-v1.0.0.zip`：
+打开 **Releases** 页，下载 `codex-setup-zh-v1.0.0.zip`：
 
 - Gitee：https://gitee.com/Flower_ly/codex-setup-zh/releases
 - GitHub：https://github.com/Nooonnneee/codex-setup-zh/releases
