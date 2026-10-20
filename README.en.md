@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078d4.svg)](#requirements)
 
-**GitHub**：https://github.com/Nooonnneee/codex-zh-cn　·　**Gitee**：https://gitee.com/Flower_ly/codex-zh-cn
+**GitHub**：https://github.com/Nooonnneee/codex-setup-zh　·　**Gitee**：https://gitee.com/Flower_ly/codex-setup-zh
 
 ---
 
@@ -24,8 +24,8 @@
 
 From the **Releases** page:
 
-- GitHub: https://github.com/Nooonnneee/codex-zh-cn/releases
-- Gitee: https://gitee.com/Flower_ly/codex-zh-cn/releases
+- GitHub: https://github.com/Nooonnneee/codex-setup-zh/releases
+- Gitee: https://gitee.com/Flower_ly/codex-setup-zh/releases
 
 ### 2. Extract
 
