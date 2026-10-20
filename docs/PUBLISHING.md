@@ -43,7 +43,7 @@ cd $dst
 powershell -ExecutionPolicy Bypass -File scripts\package-release.ps1
 ```
 
-产物：`codex-zh-CN-v1.0.0.zip`。
+产物：`codex-setup-zh-v1.0.0.zip`。
 
 **注意**：`runtime/node.exe` 不要提交进仓库（`.gitignore` 已排除 `*.zip`，
 但 `runtime/node.exe` 需要确认）。建议：
@@ -74,7 +74,7 @@ git push -u origin main
 - **Topics**（必填，这是主要搜索入口）：
   `codex` `codex-desktop` `chinese` `zh-cn` `localization` `i18n` `windows` `electron` `asar` `one-click`
 - **About 描述**：中英各一句，英文在前便于国际搜索
-- **Releases → Draft a new release**：tag `v1.0.0`，上传 `codex-zh-CN-v1.0.0.zip`，
+- **Releases → Draft a new release**：tag `v1.0.0`，上传 `codex-setup-zh-v1.0.0.zip`，
   正文用 `RELEASE_NOTES_v1.0.0.md` 的内容
 - **启用 Issues**
 
