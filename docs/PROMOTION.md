@@ -105,7 +105,7 @@ Codex 是 Electron 应用，界面分三层，每层都要单独处理：
 - 汉化可一键恢复英文
 - 95 项单元测试，Windows CI
 
-仓库：[Gitee](https://gitee.com/Flower_ly/codex-zh-cn) / [GitHub](https://github.com/Nooonnneee/codex-zh-cn)
+仓库：[Gitee](https://gitee.com/Flower_ly/codex-setup-zh) / [GitHub](https://github.com/Nooonnneee/codex-setup-zh)
 
 如果你也在维护多个 AI 编程工具账号，可以看看我做的桌面端 [繁梦](https://app.fmkj.top/download?utm_source=juejin&utm_medium=article&utm_campaign=codex-zh-cn)。
 ```
@@ -130,7 +130,7 @@ Windows 上 Codex 界面是英文的，之前有项目做了汉化但要先装�
 
 现在可以一键恢复英文。95 项单测。
 
-https://gitee.com/Flower_ly/codex-zh-cn
+https://gitee.com/Flower_ly/codex-setup-zh
 
 不是广告，就是想听听有没有更优雅的做法。
 ```
