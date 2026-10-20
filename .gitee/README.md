@@ -2,8 +2,8 @@
 
 本仓库同时托管在两处，内容一致：
 
-- **GitHub（主仓）**：https://github.com/lynnliuyu/codex-zh-cn
-- **Gitee（国内镜像）**：https://gitee.com/Flower_ly/codex-zh-cn
+- **GitHub（主仓）**：https://github.com/Nooonnneee/codex-setup-zh
+- **Gitee（国内镜像）**：https://gitee.com/Flower_ly/codex-setup-zh
 
 ## 为什么有这份文件
 
@@ -19,7 +19,7 @@ Gitee 上有些东西和 GitHub 不一样，写在这里免得后来者困惑：
 ## 同步方式
 
 ```bash
-git remote add gitee https://gitee.com/Flower_ly/codex-zh-cn.git
+git remote add gitee https://gitee.com/Flower_ly/codex-setup-zh.git
 git push gitee main --tags
 ```
 
